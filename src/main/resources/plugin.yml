@@ -1,0 +1,8 @@
+name: AntiArmorLeak
+description: Protect your server against resourcepacks or hack clients which indicate the armor status.
+main: de.pierreschwang.antiarmorleak.AntiArmorLeakPlugin
+author: Pierre Maurice Schwang
+version: ${project.version}
+
+softdepend:
+  - ProtocolLib

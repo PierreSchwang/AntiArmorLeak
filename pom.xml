@@ -6,7 +6,7 @@
 
     <groupId>de.pierreschwang</groupId>
     <artifactId>antiarmorleak</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <repositories>
         <repository>

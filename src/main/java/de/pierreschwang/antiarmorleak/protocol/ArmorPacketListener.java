@@ -42,9 +42,6 @@ public class ArmorPacketListener extends PacketAdapter {
 
         if (plugin.getArmorConfig().isMinimumProtection()) {
             ItemMeta meta = equipment.getItemMeta();
-            for (Enchantment enchantment : meta.getEnchants().keySet()) {
-                System.out.println(enchantment.getName());
-            }
             if (meta.getEnchantLevel(Enchantment.PROTECTION_ENVIRONMENTAL) > 1) {
                 meta.removeEnchant(Enchantment.PROTECTION_ENVIRONMENTAL);
                 meta.addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 1, false);
